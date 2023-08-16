@@ -2,7 +2,7 @@ package atividade1;
 
 import java.util.Scanner;
 
-public class verificarNumeroPrimo {
+public class verificaNumeroPrimo {
     
     public static void main(String[] args) {
 
@@ -12,9 +12,9 @@ public class verificarNumeroPrimo {
 
         int numero = scanner.nextInt();
         
-        verificaNumeroPrimo(numero);
+        verificarNumeroPrimo(numero);
         
-        int resultado = verificaNumeroPrimo(numero);
+        int resultado = verificarNumeroPrimo(numero);
 
         if(resultado==1){
             System.out.println(numero + " é primo");
@@ -28,7 +28,7 @@ public class verificarNumeroPrimo {
 
         }
 
-        public static int verificaNumeroPrimo(Integer n){
+        public static int verificarNumeroPrimo(Integer n){
         
             if(n<=1){
                 return 0;
