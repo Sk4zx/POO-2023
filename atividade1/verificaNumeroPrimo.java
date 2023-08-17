@@ -26,7 +26,7 @@ public class verificaNumeroPrimo {
 
         }
 
-        public static int verificarNumeroPrimo(Integer n){
+    public static int verificarNumeroPrimo(Integer n){
         
             if(n<=1){
                 return 0;
