@@ -11,9 +11,7 @@ public class verificaNumeroPrimo {
         System.out.println("Digite um numero para verificar se ele é primo: ");
 
         int numero = scanner.nextInt();
-        
-        verificarNumeroPrimo(numero);
-        
+
         int resultado = verificarNumeroPrimo(numero);
 
         if(resultado==1){
