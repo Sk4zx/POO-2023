@@ -15,18 +15,19 @@ public class verificaNumeroPrimo {
         int resultado = verificarNumeroPrimo(numero);
 
         if(resultado==1){
-            System.out.println(numero + " é primo");
+            System.out.println(numero + " é primo, retorno:" + resultado);
         }
 
         if(resultado==0){
-            System.out.println(numero + " não é primo");
+            System.out.println(numero + " não é primo, retorno: " + resultado);
+
         }
 
         scanner.close();
 
         }
 
-public static int verificarNumeroPrimo(Integer n){
+    public static int verificarNumeroPrimo(Integer n){
         
             if(n<=1){
                 return 0;
