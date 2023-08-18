@@ -20,7 +20,6 @@ public class verificaNumeroPrimo {
 
         if(resultado==0){
             System.out.println(numero + " não é primo, retorno: " + resultado);
-
         }
 
         scanner.close();
