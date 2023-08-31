@@ -10,7 +10,7 @@ public class Calculadora {
     }
 
     public static int somarAeB(int A, int B) {
-        A+B;
+        return A+B;
     }
 
 }
